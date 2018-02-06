@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Countdown Liftoff</title>    
+</head>
+    <body>
+        <pre>
+        <script>
+// Declare variable count "1"
+        var count ="1";
+// Declare variable start "10"
+        var start ="10";
+    do{
+// Start countdown from 10
+        document.writeln(start);
+// Minus 1 from 10
+        start= start -1;
+        }
+// While number is greater then or equal to 1
+    while(start <=1) 
+        document.writeln(count)
+        document.writeln("We Have Liftoff.")
+//Last Sentence is "We Have Liftoff"
+        </script>
+        </pre>
+    
+    </body>
+</html>
